@@ -1,0 +1,26 @@
+Nom : VALENTIN Pierre S4C
+
+URL : http://janda.gq/courtroom/connexion.php
+
+Cette application de messagerie instantanée s'inspire de l'univers du jeu vidéo "Ace Attorney".
+Le jeu, les personnages et les images appartiennent à la société Capcom.
+
+COMPTES POUR ACCEDER AU SITE
+
+Utilisateur :	Phoenix Wright
+Mot de passe:	AceAttorney
+
+Utilisateur :	Miles Edgeworth
+Mot de passe:	AceProsecutor
+
+Utilisateur :	Judge
+Mot de passe:	Law&Order
+
+Utilisateur :	Dick Gumshoe
+Mot de passe:	BestDetective
+
+Utilisateur :	Apollo Justice
+Mot de passe:	NeverGiveUp
+
+Utilisateur :	Athena Cykes
+Mot de passe:	MoodMatrix

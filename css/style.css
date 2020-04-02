@@ -1,0 +1,259 @@
+:root {
+	--margin: 2vw;
+	--padding: 3vw;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../font/Inter.otf') format('opentype');
+  font-weight: 100 900;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+html {
+	font-family: Inter;
+	height: 100%;
+}
+
+#body-connexion {
+  	background: url(../img/background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    max-width: 56.25rem;
+    width: 75vw;
+    margin: auto;
+}
+
+#body-chat {
+	background-color: rgb(242, 243, 245);
+}
+
+#wrapper {
+	margin: auto;
+    margin-top: auto;
+    margin-top: 1vw;
+	min-height: 20vw;
+	padding: var(--padding);
+	max-width: 400px;
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 8px 32px rgba(0, 0, 0, .1);
+	border-radius: 20px;
+	height: 100%
+}
+
+#wrapper h2 {
+	text-align: center;
+}
+
+#wrapper h3 {
+	text-align: center;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+a {
+	color: rgb(191, 57, 57);
+	text-decoration: none;
+}
+
+.input {
+	-webkit-appearance: none;
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 0, .1);
+    padding: .25rem;
+    font-size: 1rem;
+}
+
+.login-submit {
+	-webkit-appearance: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem 1rem .5rem 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(140, 17, 45);
+}
+
+#logo {
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	margin-top: 2px;
+	padding-bottom: 200px;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+}
+
+#header-bar {
+	display: box;
+    height: 0.675rem;
+    width: 100%;
+    /*background-color: rgb(66, 135, 245);*/
+}
+
+#wrapper-chat {
+	width: 100%;
+	display: flex;
+	height: 100vh;
+	position: fixed;
+}
+
+#wrapper-nav {
+	width: 20%;
+	order: 1;
+	padding-top: 1vw;
+	background-color: rgb(242, 243, 245);
+	display: flex;
+	flex-direction: column;
+}
+
+#wrapper-nav h3 {
+	padding-left: 0.675vw;
+	margin-bottom: 1vw;
+}
+
+#chatbox {
+	order: 2;
+	width: 100%;
+	display: grid;
+	background-color: rgba(255, 255, 255, 1);
+	padding-left: 1vw;
+	padding-top: 1vw;
+}
+
+#chat-log {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#chat-log::-webkit-scrollbar {
+    display: none;
+}
+
+#chat-form {
+	margin-bottom: 10px;
+	margin-top: auto;
+}
+
+#chat-content-input {
+	width: 80%;
+	background-color: rgb(235, 237, 239);
+}
+
+.chat-message {
+	padding-bottom: 10px;
+}
+
+.chat-message img {
+	width: 50px;
+	height: 50px;
+}
+
+.chat-message:hover {
+	background-color: rgb(250, 250, 250);
+}
+
+#user-info {
+	display: flex;
+	align-content: baseline;
+	text-align: center;
+}
+
+#user-info h4 {
+	align-self: center;
+	padding-left: 10px;
+	font-size: large;
+}
+
+#user-info h5 {
+	align-self: center;
+	padding-left: 10px;
+	color: rgb(136, 139, 150)
+}
+
+
+.room {
+	-webkit-appearance: none;
+    font-size: 1rem;
+    padding: 2rem 1rem 2rem 2rem;
+    border: none;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+}
+
+.room:hover {
+	outline: none;
+	background-color: rgb(232, 234, 237);
+}
+
+.selected {
+	outline: none;
+	background-color: rgb(212, 215, 220);
+}
+
+.selected:hover {
+	outline: none;
+	background-color: rgb(212, 215, 220);
+}
+
+#room-nav {
+	order: 1;
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+	position: relative;
+}
+
+#profile {
+	order: 2;
+	display: flex;
+	background-color: rgb(201, 201, 201);
+	width: 100%;
+	align-self: flex-end;
+	margin-top: auto;
+}
+
+#profile img {;
+	height: 80px;
+	width: 80px;
+	margin: 1vw;
+}
+
+#profile-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#profile-info h5 {
+	order: 1;
+}
+
+#profile-info a {
+	order: 2;
+	text-decoration: none;
+}
